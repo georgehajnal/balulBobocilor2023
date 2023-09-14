@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    background-image: url(images/ground3.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 0 10vw;
+}
+.content{
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.content p{
+    font-weight: 500;
+}
+.content h1{
+    font-size: 64px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.content h1 span{
+    color: #ff3753;
+    text-decoration: underline #ff3753;
+}
+.content button{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.content button img{
+    width: 15px;
+    margin-left: 10px;
+    
+}
+.launch-time{
+    display: flex;
+    width:35vw;
+    
+}
+.launch-time div{
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
+    
+}
+.launch-time div p{
+    font-size: 60px;
+    margin-bottom: -5px;
+}
+#timp {
+    padding-top:20px;
+}
+#titlu {
+    top: 0;
+    padding-bottom: 15px;
+    
+}
+@media only screen and (max-device-width: 480px) {
+    .content h1{
+        font-size: 40px;
+    }
+    .launch-time div p{
+        font-size: 30px;
+    }
+    .launch-time div{
+        flex-basis: 100px;
+    }
+    .launch-time div span{
+        font-size: 10px;
+    }
+    .content{
+      padding-left: 15px;
+    }
+    .launch-time {
+        width: 60vw;
+    }
+}
