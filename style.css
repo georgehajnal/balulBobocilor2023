@@ -11,7 +11,7 @@
     width: 100vw;
     height: 100vh;
     background-color: #000;
-    background-image: url(ground3.png);
+    background-image: url(background_lossy.webp);
     background-position: center;
     background-size: cover;
     position: relative;
