@@ -32,8 +32,9 @@
     padding-bottom: 20px;
 }
 .content h1 span{
-    color: #08a045;
-    text-decoration: underline #08a045;
+    text-shadow: 2px 2px #326618;
+    color: #6ac932;
+    text-decoration: underline #6ac932;
 }
 .content button{
     background: transparent;
@@ -66,6 +67,7 @@
     font-size: 60px;
     margin-bottom: -5px;
 }
+
 #timp {
     padding-top:20px;
 }
@@ -94,6 +96,6 @@
         width: 60vw;
     }
     .cotainer {
-        background-image: url(background_lossy.webp);
+        background-image: url(SITE_BAL.png);
     }
 }
